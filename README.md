@@ -1,7 +1,7 @@
 
 # Job Skill Analysis from Y Combinator's "Ask HN: Who is Hiring?" Section
 
-This Python script scrapes the Y Combinator "Ask HN: Who is Hiring?" thread, analyzes comments, and provides insights into the most mentioned technologies and programming languages.
+This Python script scrapes the Y Combinator "Ask HN: Who is Hiring?" thread, analyzes comments, and provides insights into the most mentioned technologies and programming languages. You can change the skills required by modifying the `key_words` dictionary. 
 
 ## Features
 - Scrapes job postings from the "Who is hiring?" section of Y Combinator’s Ask HN.
@@ -33,5 +33,6 @@ This Python script scrapes the Y Combinator "Ask HN: Who is Hiring?" thread, ana
 
 ## Example Output
 
-The output will show a bar graph where each bar represents a technology (like Python, JavaScript, etc.), and the height of each bar corresponds to the number of mentions in the comments.
+The output will show a bar graph where each bar represents a technology (like Python, JavaScript, etc.), and the height of each bar corresponds to the number of mentions in the comments. Please full screen the graph genereated so that you can see all of the values properly. 
 
+## Python Version: 3.10.5
